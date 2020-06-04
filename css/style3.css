@@ -1,0 +1,65 @@
+@charset "utf-8";
+    dl{
+        width: 1350px;
+        border-top:1px solid #cccccc;
+        border-left:1px solid #cccccc;
+        border-right:1px solid #cccccc;
+}
+
+dl dt{
+    float: left;
+    padding: 1em;
+    color:#998484;
+}
+
+dl dd{
+    border-bottom:1px solid #cccccc;
+    padding: 1em 0 1em 18em;
+}
+
+dl dt .must{
+    color: red;
+}
+
+input[type="email"]{
+    width: 50%;
+}
+
+input{
+    font-size: 1em;
+    padding: 5px;
+}
+
+label{
+    margin-right: 2em;
+}
+
+select{
+    font-size: 15px;
+}
+
+textarea{
+    width: 30em;
+    font-size: 1em;
+    padding: 5px;
+}
+
+p.submit{
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding: 20px 100px;
+    background: #7f6666;
+    font-size: 1em;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+}
